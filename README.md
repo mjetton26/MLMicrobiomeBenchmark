@@ -54,5 +54,6 @@ qiime tools import \
 ```
 Here is a summarized version of the workflow for converting input data formats:
 ### Starting with MikropML data:
-Starting with an OTU Table with DX labels in R
+Starting with an OTU Table with DX labels in R:
+
 OTU Table -> add sample IDs -> split dx from OTU columns -> write DeepMicro features + labels -> transpose OTUs to rows and write the QIIME2 TSV + metadata -> (in terminal) biom convert -> qiime tools import to qza
